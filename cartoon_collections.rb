@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(array)
   length_array = []
   array.each do |word|
-    length_array << word.length_array
+    length_array << word.length
   end 
     length_array.any? {|i| i > 4}
 end
