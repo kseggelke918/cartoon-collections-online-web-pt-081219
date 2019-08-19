@@ -13,14 +13,12 @@ def long_planeteer_calls(array)
   word_length = []
   array.each do |word|
     word_length << word.length 
-    binding.pry 
+  end  
     if word_length.include?(4)
       return true 
     else 
       return false 
     end 
-  end 
-   
 end
 
 def find_the_cheese# code an argument here
