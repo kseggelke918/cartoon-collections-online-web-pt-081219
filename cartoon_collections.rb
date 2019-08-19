@@ -9,12 +9,16 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.collect {|word| word.length == 4}
-  if word == true 
+  word_length = []
+  array.each do |word|
+    word_length << word.length 
+    if word_length.include?(4)
       true 
     else 
       false 
+    end 
   end 
+   
 end
 
 def find_the_cheese# code an argument here
