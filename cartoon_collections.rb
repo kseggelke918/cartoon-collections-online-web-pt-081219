@@ -22,4 +22,5 @@ def find_the_cheese(array)
     array.find do |type|
       bindng.pry 
     cheese_types.include?(type)
+  end 
 end
