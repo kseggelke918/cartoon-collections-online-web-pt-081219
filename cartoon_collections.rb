@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(array)
   array.collect {|word| word.length == 4}
-  if array[i] == true 
+  if word == true 
       true 
     else 
       false 
