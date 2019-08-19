@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.find do |type|
-      bindng.pry 
+      binding.pry 
     cheese_types.include?(type)
   end 
 end
