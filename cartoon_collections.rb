@@ -13,9 +13,9 @@ def long_planeteer_calls(array)
   array.each do |word|
     word_length << word.length 
     if word_length.include?(4)
-      true 
+      return true 
     else 
-      false 
+      return false 
     end 
   end 
    
