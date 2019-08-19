@@ -19,5 +19,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return cheese_types if array.include?(cheese_types)
+    array.find do |type|
+      bindng.pry 
+    cheese_types.include?(type)
 end
